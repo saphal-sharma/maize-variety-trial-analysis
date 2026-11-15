@@ -1,5 +1,12 @@
 # Variety Trial Analysis: Yield, Stability and G×E in Maize and Rapeseed
 
+> **Question:** Which hybrids yield well and reliably across environments, and can the rapeseed varieties be told apart?  
+> **Answer:** Environment explains 77% of maize yield variation; the top-yielding hybrid was not the most stable. Rapeseed heritability was only 0.08, so the varieties could not be separated reliably.  
+> **Method:** ANOVA partition, Finlay–Wilkinson stability, GGE biplot and mixed-model (lme4) heritability in R.
+
+<img src="results/maize_gge_biplot.png" alt="GGE biplot" width="720">
+
+
 Statistical analysis of multi-environment variety trials (MET), the core data used in plant breeding and seed companies to decide which varieties to release and where to recommend them.
 
 📄 **Report:** [`report/variety_trial_report.md`](report/variety_trial_report.md) · [PDF](report/variety_trial_report.pdf)
