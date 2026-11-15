@@ -45,4 +45,4 @@ results/   tables (CSV) and charts (PNG)
 report/    report (Markdown and PDF)
 ```
 
-**Author:** Saphal Sharma, M.Sc. Sustainable International Agriculture, University of Göttingen
+**Author:** Saphal Sharma, M.Sc. student, Sustainable International Agriculture, University of Göttingen
