@@ -1,5 +1,7 @@
 # Variety Trial Analysis: Yield, Stability and G×E in Maize and Rapeseed
 
+[![Tests](https://github.com/saphal-sharma/maize-variety-trial-analysis/actions/workflows/tests.yml/badge.svg)](https://github.com/saphal-sharma/maize-variety-trial-analysis/actions/workflows/tests.yml)
+
 > **Question:** Which hybrids yield well and reliably across environments, and can the rapeseed varieties be told apart?  
 > **Answer:** Environment explains 77% of maize yield variation; the top-yielding hybrid was not the most stable. Rapeseed heritability was only 0.08, so the varieties could not be separated reliably.  
 > **Method:** ANOVA partition, Finlay–Wilkinson stability, GGE biplot and mixed-model (lme4) heritability in R.
@@ -35,6 +37,10 @@ Published trial data distributed with the open-source R package [agridat](https:
 
 - `kang.maize`: 17 maize hybrids × 12 environments, Louisiana 1985–1987 (Kang & Gorman, 1989, *Agronomy Journal*).
 - `shafii.rapeseed`: 6 winter rapeseed varieties × 27 environments × 4 replicates, U.S. National Winter Rapeseed trials (Shafii & Price, 1998, *JABES*).
+
+## How I checked this
+
+- Automated checks rerun the R analysis and confirm the reported findings: environment share of variation (77%), 8 different winning hybrids across 12 environments and rapeseed heritability (0.08).
 
 ## Run it
 
